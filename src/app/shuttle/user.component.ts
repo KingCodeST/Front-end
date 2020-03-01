@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from '../domain/user';
+import {User} from './user'
+
 @Component({
     selector: 'app-user',
     templateUrl:'./user.componet.html',
