@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {LocationComponet} from './shuttle/location.component';
+import {UserComponent} from "./shuttle/user.component";
 
 @NgModule({
   declarations: [
