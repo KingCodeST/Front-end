@@ -6,7 +6,7 @@ import 'rxjs/add/operator/catch'
 import { Observable } from 'rxjs';
 
 
-@Injectable()
+@Injectable() 
 export class UserService{
 
     constructor(private _httpService: HttpClient){}
