@@ -14,8 +14,14 @@ export class ShuttleComponent implements OnInit {
 
   constructor() { }
 
+  public changeColorClass ="txtClass";
+  public headerColor ="hcolor";
+  public bodyColor ="bcolor";
+  public footecolor="fcolor";
+
   ngOnInit(): void {
   }
+
 
 }
 
