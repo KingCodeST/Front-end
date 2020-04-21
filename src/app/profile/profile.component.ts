@@ -12,4 +12,9 @@ export class ProfileComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public changeColorClass ="txtClass";
+  public headerColor ="hcolor";
+  public bodyColor ="bcolor";
+  public footecolor="fcolor";
+
 }
